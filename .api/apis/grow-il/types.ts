@@ -1,0 +1,25 @@
+import type { FromSchema } from 'json-schema-to-ts';
+import * as schemas from './schemas';
+
+export type PostApiLightAndriod10CancelbittransactionBodyParam = FromSchema<typeof schemas.PostApiLightAndriod10Cancelbittransaction.body>;
+export type PostApiLightAndriod10CancelbittransactionResponse200 = FromSchema<typeof schemas.PostApiLightAndriod10Cancelbittransaction.response['200']>;
+export type PostApiLightServer10ApprovetransactionBodyParam = FromSchema<typeof schemas.PostApiLightServer10Approvetransaction.body>;
+export type PostApiLightServer10ApprovetransactionResponse200 = FromSchema<typeof schemas.PostApiLightServer10Approvetransaction.response['200']>;
+export type PostApiLightServer10CreatefarpaymentrequestBodyParam = FromSchema<typeof schemas.PostApiLightServer10Createfarpaymentrequest.body>;
+export type PostApiLightServer10CreatefarpaymentrequestResponse200 = FromSchema<typeof schemas.PostApiLightServer10Createfarpaymentrequest.response['200']>;
+export type PostApiLightServer10CreatepaymentprocessBodyParam = FromSchema<typeof schemas.PostApiLightServer10Createpaymentprocess.body>;
+export type PostApiLightServer10CreatepaymentprocessResponse200 = FromSchema<typeof schemas.PostApiLightServer10Createpaymentprocess.response['200']>;
+export type PostApiLightServer10CreatetransactionwithtokenBodyParam = FromSchema<typeof schemas.PostApiLightServer10Createtransactionwithtoken.body>;
+export type PostApiLightServer10CreatetransactionwithtokenResponse200 = FromSchema<typeof schemas.PostApiLightServer10Createtransactionwithtoken.response['200']>;
+export type PostApiLightServer10GetpaymentprocessinfoBodyParam = FromSchema<typeof schemas.PostApiLightServer10Getpaymentprocessinfo.body>;
+export type PostApiLightServer10GetpaymentprocessinfoResponse200 = FromSchema<typeof schemas.PostApiLightServer10Getpaymentprocessinfo.response['200']>;
+export type PostApiLightServer10GettokentransactionsbyexternalidentifiersBodyParam = FromSchema<typeof schemas.PostApiLightServer10Gettokentransactionsbyexternalidentifiers.body>;
+export type PostApiLightServer10GettokentransactionsbyexternalidentifiersResponse200 = FromSchema<typeof schemas.PostApiLightServer10Gettokentransactionsbyexternalidentifiers.response['200']>;
+export type PostApiLightServer10GettransactioninfoBodyParam = FromSchema<typeof schemas.PostApiLightServer10Gettransactioninfo.body>;
+export type PostApiLightServer10GettransactioninfoResponse200 = FromSchema<typeof schemas.PostApiLightServer10Gettransactioninfo.response['200']>;
+export type PostApiLightServer10RefundtransactionBodyParam = FromSchema<typeof schemas.PostApiLightServer10Refundtransaction.body>;
+export type PostApiLightServer10RefundtransactionResponse200 = FromSchema<typeof schemas.PostApiLightServer10Refundtransaction.response['200']>;
+export type PostApiLightServer10SettlesuspendedtransactionBodyParam = FromSchema<typeof schemas.PostApiLightServer10Settlesuspendedtransaction.body>;
+export type PostApiLightServer10SettlesuspendedtransactionResponse200 = FromSchema<typeof schemas.PostApiLightServer10Settlesuspendedtransaction.response['200']>;
+export type PostApiLightServer10UpdatedirectdebitBodyParam = FromSchema<typeof schemas.PostApiLightServer10Updatedirectdebit.body>;
+export type PostApiLightServer10UpdatedirectdebitResponse200 = FromSchema<typeof schemas.PostApiLightServer10Updatedirectdebit.response['200']>;
