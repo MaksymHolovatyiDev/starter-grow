@@ -1,5 +1,5 @@
 {
-  "wathc": ["src"],
+  "watch": ["src"],
   "ext": "ts",
   "ignore": ["src/**/*.spec.ts"],
   "exec": "ts-node -r tsconfig-paths/register src/index.ts"
